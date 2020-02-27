@@ -1,0 +1,33 @@
+* {
+  text-size: 70px;
+  text-align: center;
+  background-position: center;
+}
+h2 {
+  font-size: 70px;
+}
+.info{
+  background-color:green;
+}
+.info:hover {
+  font-size: 1.3rem;
+}
+.pic1 {
+  height: 45%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.pic2 {
+  height: 55%;
+  width: 100%;
+  background-size: cover;
+}
+.pic3 {
+  height: 45%;
+  width: 100%;
+  background-size: cover;
+}
+p {
+  color: white;
+}

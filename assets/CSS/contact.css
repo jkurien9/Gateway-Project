@@ -1,0 +1,47 @@
+form {
+  background-color: #000080;
+  border: 8px dotted #ffffff; /****my size, style, and color of border****/
+}
+.inform { 
+  font-size: 3.6rem;
+  color: #000; /****AFFECTS MY HEADER****/
+}
+.contact {
+border-radius: 5px;
+  background: #FDD9B5;
+  background-repeat: no-repeat;
+  background-size: 950px;
+  text-align: center;
+  height: 500px;
+  width:100%; /****MY TEXTBOXES****/
+}
+.comment {
+  padding-top: 8px;
+  padding-left: 1rem;
+  padding-right: 1rem; /***MY COMMENT BAR*****/
+}
+textarea {
+  width: 15rem;
+  height: 5rem;
+  border: 0px ridge #FFFFFF;
+  margin: 5px 0;
+}
+
+.button {
+  padding: 1%;
+  background-color: #000080;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin-top: 15px; /****SUBMIT****/
+}
+.button:hover {
+  background-color: #1656d2;
+}
+footer{
+  text-align:center;
+  background-color:green;
+  font
+}
+p {
+  color: white;
+}

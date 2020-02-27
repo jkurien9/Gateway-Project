@@ -1,0 +1,77 @@
+* {
+  margin: 0; /*TARGETS EVERYTHING*/
+}
+body {
+    padding: 0px;
+  font-family: PT Sans Narrow;
+}
+.nav {
+  background-color:  #e3a857;
+  list-style: none; /*removes bullet points*/
+  text-align: center; /*moves the text to the right of the nav bar*/
+  padding-top: 25px; /*added 30px on top of the nav bar*/
+  padding-bottom: 25px; /*added 30px on the bottom of the nav bar*/
+}
+.nav li{
+  display: inline-block;
+  padding-right: 100px;
+}
+.nav a {
+  text-decoration: none; /* removes text list style in anchor*/
+  font-size: 20px;
+  color: #000;
+}
+.flag_logo {
+  height: 65px; /*NAV BAR*/
+}
+.nav a:hover {
+  transition: 1s; /* duration of my hover animation */
+  color: #138808;
+  font-size: 30px;
+  }
+.hero-image {
+  height: 550px;
+  width: 100%; 
+}
+h1 {
+  font-size: 75px;
+  text-shadow: 2px 3px 3px #000; /*1st how far to the right, 2nd how far down with the 3rd how blurred the shadow is */
+  text-align: center;
+  transform: translate(0%, -300%); /*puts text over the image with the 1st % affecting how far to the left/right and the 2nd % affecting how far up/down*/
+  color: #138808;
+}
+.border {
+  padding-top: 25px;
+  border: 2px solid #FFFFFF;
+  height: 100px;
+  width: 1275px;
+}
+h1:hover {
+  color: #FFFFFF;
+  transition: 1.5s;
+}
+.info {
+  width: 80%;
+  margin: 30px auto;
+  border: 5px double #C0C0C0;
+  padding: 10px;
+  line-height: 2; /*adds the space in paragraph */
+}
+
+footer {
+  text-align:center;
+  background-color: #138808;
+  height:140px;
+  padding:10px;
+    }
+p {
+  color: black;
+}
+.logos {
+  height: 50px;
+}
+.pointinguparrow {
+  height: 50px;
+  display: block; /* to separate it from an auto inline, and makes it go down to next line*/
+  margin: 0 auto; /* centers image */
+}
